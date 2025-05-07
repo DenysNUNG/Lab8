@@ -22,7 +22,7 @@ class Program
 
         foreach (var person in people)
         {
-            Console.WriteLine($"Name: {person.Name} Age: {person.Age}");
+            Console.WriteLine($"Name: {person.Name}, Age: {person.Age}, Salary: {person.Salary}");
         }
     }
 }
