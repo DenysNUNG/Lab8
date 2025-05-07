@@ -20,7 +20,7 @@ class Program
             new Person { Name = "Denys", Age = 30, Salary = 1 }
         };
 
-        foreach(var person in people)
+        foreach (var person in people)
         {
             Console.WriteLine($"Name: {person.Name}, Age: {person.Age}, Salary: {person.Salary}");
         }
